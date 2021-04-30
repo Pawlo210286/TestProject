@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_margin">20dp</dimen>
+    <dimen name="middle_margin">10dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="float_button_margin">16dp</dimen>
+    <dimen name="transaction_text_margin">5dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+</resources>

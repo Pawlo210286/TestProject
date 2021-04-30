@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test Project</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="error_server_no_internet_connection">No internet connection. \nPlease check the internet connection</string>
+    <string name="error_server_internal">Internal server error</string>
+    <string name="error_not_enough_money">You do not have enough money!</string>
+    <string name="error_zero_value">Please write number bigger than zero!</string>
+    <string name="choose_option">Choose option:</string>
+    <string name="enter_the_sum">Enter the sum:</string>
+    <string name="add_new_transaction">Add new transaction</string>
+    <string name="submit">Submit</string>
+    <string name="dollar_suffix">Balance: %1$s$</string>
+
+    <string-array name="transactions">
+        <item>Deposit</item>
+        <item>Withdraw</item>
+    </string-array>
+</resources>
