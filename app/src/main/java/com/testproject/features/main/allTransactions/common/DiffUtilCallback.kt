@@ -3,6 +3,9 @@ package com.testproject.features.main.allTransactions.common
 import androidx.recyclerview.widget.DiffUtil
 import com.testproject.domain.entity.TransactionDetails
 
+/**
+ * @author Pawlo Nikitin
+ */
 class DiffUtilCallback : DiffUtil.ItemCallback<TransactionDetails>() {
     override fun areItemsTheSame(
         oldItem: TransactionDetails,

@@ -7,6 +7,9 @@ import org.kodein.di.KodeinAware
 import org.kodein.di.android.closestKodein
 import org.kodein.di.android.retainedKodein
 
+/**
+ * @author Pawlo Nikitin
+ */
 abstract class BaseActivity(
     @LayoutRes
     layoutId: Int

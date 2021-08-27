@@ -9,6 +9,9 @@ import org.kodein.di.generic.instance
 import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 
+/**
+ * @author Pawlo Nikitin
+ */
 object DomainModule {
     fun get() = Kodein.Module("Domain") {
 

@@ -7,6 +7,9 @@ import org.kodein.di.KodeinAware
 import org.kodein.di.KodeinTrigger
 import timber.log.Timber
 
+/**
+ * @author Pawlo Nikitin
+ */
 class TestProjectApp : Application(), KodeinAware {
     override val kodein = Kodein.lazy {
         import(AppModule.get(this@TestProjectApp))

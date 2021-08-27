@@ -6,6 +6,9 @@ import androidx.recyclerview.widget.ListAdapter
 import com.testproject.R
 import com.testproject.domain.entity.TransactionDetails
 
+/**
+ * @author Pawlo Nikitin
+ */
 class TransactionListAdapter :
     ListAdapter<TransactionDetails, TransactionListViewHolder>(DiffUtilCallback()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TransactionListViewHolder {

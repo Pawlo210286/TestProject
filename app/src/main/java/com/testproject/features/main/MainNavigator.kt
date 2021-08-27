@@ -8,6 +8,9 @@ import com.testproject.features.main.allTransactions.presentation.AllTransaction
 import com.testproject.features.main.newTransaction.navigator.AddNewTransactionNavigator
 import com.testproject.features.main.newTransaction.presentation.AddNewTransactionFragment
 
+/**
+ * @author Pawlo Nikitin
+ */
 class MainNavigator : AllTransactionNavigator, AddNewTransactionNavigator, BaseNavigator() {
     fun navigateToAllTransactions() {
         fManager?.commit {

@@ -9,6 +9,9 @@ import org.kodein.di.direct
 import org.kodein.di.generic.bind
 import org.kodein.di.generic.instance
 
+/**
+ * @author Pawlo Nikitin
+ */
 inline fun <reified T : ViewModel> Kodein.Builder.bindViewModel(overrides: Boolean? = null): Kodein.Builder.TypeBinder<ViewModel> {
     return bind<ViewModel>(T::class.java.simpleName, overrides)
 }

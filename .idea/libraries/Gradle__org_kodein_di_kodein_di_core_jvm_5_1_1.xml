@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-core-jvm/5.1.1/e6d179d226e7fd792886bdd13912bafc4f9015dd/kodein-di-core-jvm-5.1.1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-core-jvm/5.1.1/538d42709c3f84dedfbc05bcd0416bf863a43146/kodein-di-core-jvm-5.1.1-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-core-jvm/5.1.1/faa4fec756b20613cbe94891a1122b2b42d3b052/kodein-di-core-jvm-5.1.1-sources.jar!/" />
     </SOURCES>

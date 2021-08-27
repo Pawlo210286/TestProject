@@ -11,6 +11,9 @@ import org.kodein.di.generic.instance
 import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 
+/**
+ * @author Pawlo Nikitin
+ */
 class MainActivity : BaseActivity(R.layout.activity_main) {
 
     override fun diModule() = Kodein.Module(this::class.java.simpleName) {

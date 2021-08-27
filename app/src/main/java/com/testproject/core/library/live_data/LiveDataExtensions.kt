@@ -9,6 +9,9 @@ import androidx.lifecycle.map
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
+/**
+ * @author Pawlo Nikitin
+ */
 inline fun <reified T, LD : LiveData<T>> Fragment.observe(
     liveData: LD,
     crossinline block: (T) -> Unit

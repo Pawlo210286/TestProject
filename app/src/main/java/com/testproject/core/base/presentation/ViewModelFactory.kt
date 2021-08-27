@@ -5,6 +5,9 @@ import androidx.lifecycle.ViewModelProvider
 import org.kodein.di.DKodein
 import org.kodein.di.generic.instanceOrNull
 
+/**
+ * @author Pawlo Nikitin
+ */
 @Suppress("UNCHECKED_CAST")
 class ViewModelFactory(private val injector: DKodein) : ViewModelProvider.Factory {
 

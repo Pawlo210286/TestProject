@@ -14,6 +14,9 @@ import com.testproject.features.main.newTransaction.navigator.AddNewTransactionN
 import kotlinx.coroutines.launch
 import java.util.*
 
+/**
+ * @author Pawlo Nikitin
+ */
 class AddNewTransactionViewModel(
     private val transactionsUseCase: TransactionsUseCase,
     private val navigator: AddNewTransactionNavigator

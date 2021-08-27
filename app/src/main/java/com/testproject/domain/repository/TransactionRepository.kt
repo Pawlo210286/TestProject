@@ -5,7 +5,9 @@ import com.testproject.domain.entity.TransactionType
 import com.testproject.domain.entity.UserTransactionData
 import com.testproject.domain.entity.error.NotEnoughMoneyException
 
-
+/**
+ * @author Pawlo Nikitin
+ */
 class TransactionRepository {
     private var userBalance: Double = 0.0
     private val transactionsList = ArrayList<TransactionDetails>(0)

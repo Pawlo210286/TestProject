@@ -9,6 +9,9 @@ import org.kodein.di.KodeinAware
 import org.kodein.di.KodeinTrigger
 import org.kodein.di.android.closestKodein
 
+/**
+ * @author Pawlo Nikitin
+ */
 abstract class BaseFragment(
     @LayoutRes
     protected val layoutId: Int

@@ -22,6 +22,9 @@ import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 import java.math.RoundingMode
 
+/**
+ * @author Pawlo Nikitin
+ */
 class AllTransactionFragment : BaseFragment(R.layout.fragment_transactions_list) {
 
     override val kodeinModule = Kodein.Module(this::class.java.simpleName) {
